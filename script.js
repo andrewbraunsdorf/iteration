@@ -10,3 +10,10 @@ for (var i=0; i < numbers.length; i ++){
     
 }
 console.log("this is forLoop", forLoop.join(""));
+
+var forEach = [];
+numbers.forEach(function(e){
+    // let data = String.fromCharCode(e);
+    forEach.push(String.fromCharCode(e));
+});
+console.log(forEach.join(""));
